@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "CharacterCreator": {
@@ -121,8 +121,16 @@
               "devServerTarget": "CharacterCreator:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "CharacterCreator"
+    }
+  },
+  "defaultProject": "CharacterCreator",
+  "cli": {
+    "analytics": "4cd57b26-82ab-4fe1-8c45-11e27cb5259f"
+  }
 }
