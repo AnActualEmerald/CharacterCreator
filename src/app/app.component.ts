@@ -12,6 +12,6 @@ export class AppComponent {
   title = 'CharacterCreator';
   items: Observable<any[]>;
   constructor(private firestore: AngularFirestore){
-    
+    console.log('loaded lol');
   }
 }
