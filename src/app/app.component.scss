@@ -1,0 +1,32 @@
+.app {
+    position: relative;
+    margin: auto;
+    width: 25%;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        position: absolute;
+        :hover {
+            background: darken(lightblue, 10);
+        }
+        li {
+            padding: 1em;
+            position: relative;
+            margin-left: 1em;
+            border: thin solid darken(lightblue, 20);
+            border-radius: .5em;
+            background: lightblue;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    .router {
+        position: absolute;
+        margin-top: 10em;
+    }
+}
