@@ -1,0 +1,8 @@
+<div class="editor">
+    <span>Name: </span><input [(ngModel)]="currentChar.name" class="name" placeholder="Jimmy John Smith the 7th"/>
+    <span>Age: </span><input [(ngModel)]="currentChar.age" class="age" placeholder="69" type="number"/>
+    <span>Appearance: </span><input [(ngModel)]="currentChar.appearance" class="appearance" placeholder="Black hair, green eyes, disgusting flappy blue skin"/>
+    <span>From: </span><input [(ngModel)]="currentChar.place" class="place" placeholder="Canada"/>
+    <span>Backstory: </span><input [(ngModel)]="currentChar.story" class="story" placeholder="At age six I was born without a face"/>
+    <button (click)="save()">Save</button>
+</div>

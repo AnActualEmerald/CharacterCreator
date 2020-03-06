@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    :hover{
+        background: darken($color: lightgreen, $amount: 10);
+        left: 5em;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        margin: 1em;
+        padding: .25em;
+        width: 20em;
+        border: darken(lightgreen, 20) solid thin;
+        background: lightgreen;
+        border-radius: .5em;
+        align-items: center;
+
+        .del {
+            align-items: center;
+            margin-right: 1em;
+            padding: .25em;
+            padding-right: 1em;
+            border-right: solid darkgreen thin;
+            :hover{
+                right:.1em;
+                color: red;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "charactercreator-76896"
+  },
+  "targets": {
+    "charactercreator-76896": {
+      "hosting": {
+        "CharacterCreator": [
+          "charactercreator-76896"
+        ]
+      }
+    }
+  }
+}

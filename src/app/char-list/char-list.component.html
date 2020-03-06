@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let char of characters | async" routerLink="/characters/{{char.name}}">
+        {{char.name}}
+    </li>
+</ul>
